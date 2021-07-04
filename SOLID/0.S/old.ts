@@ -43,7 +43,7 @@ musicToggleElement.addEventListener('click', () => {
 musicSliderElement.addEventListener('input', (event) => {
     let target = <HTMLFormElement>(event.target);
     let musiclevel = car.musicplayer.musicLevel ;
-    
+
     musiclevel = target.value;
     audioElement.volume = musiclevel / 100;
 
